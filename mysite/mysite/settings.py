@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'brytek', # os.path.join(BASE_DIR, 'db.mysql'),
-        'USER': 'root',
-        'PASSWORD': 'Mxx33r12!@',
+        'NAME': 'mysitedb', # os.path.join(BASE_DIR, 'db.mysql'),
+        'USER': 'user',
+        'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': '',
     }
