@@ -1,0 +1,9 @@
+body {
+    background: white url("images/background.svg") no-repeat right bottom;
+    height: 100%;
+    width: 100%;
+}
+
+li a {
+    color: green;
+}
